@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1200</width>
+     <height>811</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget{
+background-color:qlineargradient(spread:pad, x1:0.0101244, y1:0, x2:0.71592, y2:0.875, stop:0 rgba(0, 0, 255, 255), stop:1 rgba(255, 85, 0, 255))}</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>140</y>
+      <width>391</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 36pt &quot;MS Shell Dlg 2&quot;;
+color:rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string>HOŞGELDİNİZ</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>250</y>
+      <width>511</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;MS Shell Dlg 2&quot;;
+color:rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string>KAYIT OL VE YENİ HESABINI OLUŞTUR</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>360</y>
+      <width>281</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+color:rgb(0, 0, 0);
+background-color:rgb(0, 238, 238);
+font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>GİRİŞ</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="hesapolustur">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>460</y>
+      <width>281</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+color:rgb(0, 0, 0);
+background-color:rgb(0, 238, 238);
+font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>HESAP OLUŞTUR</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>620</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:7px;
+color:rgb(0, 0, 0);
+background-color:rgb(0, 238, 238);
+font: 12px &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>ÇIKIŞ</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
